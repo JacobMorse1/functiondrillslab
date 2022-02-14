@@ -159,7 +159,7 @@ function exclaimFour(str) {
 }
 
 // arrow
-// declaration
+// declaration THIS ONE!!
 // expression
 
 
@@ -172,8 +172,19 @@ function exclaimFour(str) {
   Create a variable called 'nameGreeting' and set it equal to your function invoked (called) passing in an argument.
 */
 
-//CODE HERE
+function nameCheck(name) {
+  if(name === 'Steven') {
+    return 'What is up Steven?'
+  } else if(name === 'Bryan'){
+    return 'Hey Bryan!'
+  } else {
+    return `Cool name, ${name}`
+  }
+}
 
+
+let nameGreeting = nameCheck('Jake')
+console.log(nameGreeting)
 
 ////////////////// PROBLEM 11 ////////////////////
 /*
