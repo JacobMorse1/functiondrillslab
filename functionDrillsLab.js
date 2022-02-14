@@ -319,7 +319,12 @@ let sampleString = "Hi, my name is Kylo."
   Invoke the function, passing in the sampleString (above).
 */
 
-//CODE HERE
+function kyloIntro(name) {
+  let upper = name.toUpperCase()
+  console.log(upper)
+}
+
+kyloIntro(sampleString)
 
 
 ////////////////// PROBLEM 18 ////////////////////
