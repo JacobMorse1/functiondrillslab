@@ -237,8 +237,16 @@ printAllNames(namesArr)
   Outside the function, create a variable called `oddChecker` and set it equal to your function invoked, making sure to pass in an argument.
 */
 
-//CODE HERE
+function thatsOdd(num1) {
+  if(num1 % 2 === 0) {
+    return 'Thats not odd'
+  } else {
+    return 'that is odd indeed!'
+  }
+}
 
+let oddChecker = thatsOdd(43)
+console.log(oddChecker)
 
 ////////////////// PROBLEM 14 ////////////////////
 
@@ -250,7 +258,11 @@ printAllNames(namesArr)
     we would expect the function to return 'Sharknado is the best movie ever!'
 */
 
-//CODE HERE
+const bestMovie = title => `${title} is the best movie ever!`
+
+
+let movie = bestMovie('kingkong')
+console.log(movie)
 
 
 ////////////////// PROBLEM 15 ////////////////////
