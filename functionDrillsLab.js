@@ -40,7 +40,11 @@ console.log(whoAmI)
   Call the function, passing in an argument.
 */
 
-//CODE HERE
+function printName(name) {
+  console.log(name)
+}
+
+printName("Cameron")
 
 
 ////////////////// PROBLEM 4 ////////////////////
@@ -54,8 +58,12 @@ console.log(whoAmI)
   Make sure to call your function and pass in an argument.
 */
 
-//CODE HERE
+function greeting(name) {
+  // let string = `Hello` + `${name}`
 
+  console.log(`Hello, ${name}`)
+}
+ greeting('Jake')
 
 ////////////////// PROBLEM 5 ////////////////////
 
@@ -68,7 +76,18 @@ console.log(whoAmI)
     Brownie points if you use a ternary statement (only spend significant time on this if you have wiggle room)
 */
 
-//CODE HERE
+
+const compareNums = (num1, num2) => {
+  if(num1 > num2) {
+    console.log(num1)
+  } else if(num1 < num2) {
+    console.log(num2)
+  } else{
+    console.log(`${num1}, ${num2}`)
+  }
+}
+
+compareNums(3, 3)
 
 
 ////////////////// PROBLEM 6 ////////////////////
