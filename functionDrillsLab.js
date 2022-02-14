@@ -196,7 +196,21 @@ console.log(nameGreeting)
   Create a variable called 'colorRating' and set it equal to faveColorFinder invoked (called), passing in an argument.
 */
 
-//CODE HERE
+function faveColorFinder(color) {
+  if(color === 'red') {
+    return 'Red is a great color'
+  } 
+  if(color === 'green') {
+    return 'Green is a solid favority color.'
+  }
+  if(color === 'black') {
+    return 'so trendy'
+  } else {
+    return 'you need to evaluate your favorite color choice'
+  }
+}
+let colorRating = faveColorFinder('black')
+console.log(colorRating)
 
 
 ////////////////// PROBLEM 12 ////////////////////
@@ -207,8 +221,13 @@ let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
   Call the function, passing in the `namesArr` array (above).
 */
 
-//CODE HERE
+function printAllNames(names) {
+ for(let i = 0; i < names.length; i++) {
+   console.log(names[i])
+ }
+}
 
+printAllNames(namesArr)
 
 ////////////////// PROBLEM 13 ////////////////////
 /*
