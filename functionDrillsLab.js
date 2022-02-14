@@ -98,8 +98,13 @@ compareNums(3, 3)
   Create a variable outside the function called 'sum' and set it equal to add invoked (called), passing in 2 arguments.
 */
 
-//CODE HERE
+function add(para1, para2) {
+  let number = parseInt(para1 + para2)
+  return number
+}
 
+let sum = add(2, 3)
+console.log(sum)
 
 ////////////////// PROBLEM 7 ////////////////////
 
