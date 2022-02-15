@@ -119,7 +119,7 @@ const exclaim = function(str) {
 
 // arrow
 // declaration
-// expression
+// expression THIS ONE!!
 
 
 
@@ -337,6 +337,19 @@ kyloIntro(sampleString)
   If it does, return 'email verified' and if doesn't, 
   return 'must provide a valid email address'
 */
+
+function emailCheck(email) {
+  let whitespace = `${email}`
+  whitespace.trim()
+  if(whitespace.includes('@'))
+// } if(whitespace === true) {
+  return 'email verified'
+// } else {
+  return 'must provide a valid email address'
+}
+
+let newemailcheck = emailCheck('jj@gmail.com')
+console.log(newemailcheck)
 
 ////////////////// PROBLEM 19 ////////////////////
 /*
